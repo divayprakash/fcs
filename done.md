@@ -70,9 +70,9 @@ turned off or on. This can be seen in the attached screenshots.
 nmap -sS -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](./off/sS.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/off/sS.png)
 ##### Firewall **ON**
-![sS-off](./on/sS.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/on/sS.png)
 
 **TCP connect scan**
 <br />
@@ -80,9 +80,9 @@ nmap -sS -vv -p 0-65535 localhost
 nmap -sT -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](./off/sT.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/off/sT.png)
 ##### Firewall **ON**
-![sS-off](./on/sT.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/on/sT.png)
 
 **Service/version detection scan**
 <br />
@@ -90,9 +90,9 @@ nmap -sT -vv -p 0-65535 localhost
 nmap -sV -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](./off/sV.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/off/sV.png)
 ##### Firewall **ON**
-![sS-off](./on/sV.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/on/sV.png)
 
 **No ping scan**
 <br />
@@ -100,9 +100,9 @@ nmap -sV -vv -p 0-65535 localhost
 nmap -P0 -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](./off/P0.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/off/P0.png)
 ##### Firewall **ON**
-![sS-off](./on/P0.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/on/P0.png)
 
 **OS detection scan**
 <br />
@@ -110,9 +110,9 @@ nmap -P0 -vv -p 0-65535 localhost
 nmap -O -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](./off/O.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/off/O.png)
 ##### Firewall **ON**
-![sS-off](./on/O.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/on/O.png)
 
 ### Ans 3
 
