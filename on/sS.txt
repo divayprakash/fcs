@@ -1,0 +1,18 @@
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2016-10-09 12:15 IST
+Initiating SYN Stealth Scan at 12:15
+Scanning localhost (127.0.0.1) [65536 ports]
+Discovered open port 631/tcp on 127.0.0.1
+Discovered open port 9050/tcp on 127.0.0.1
+Completed SYN Stealth Scan at 12:15, 8.36s elapsed (65536 total ports)
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000024s latency).
+Scanned at 2016-10-09 12:15:49 IST for 8s
+Not shown: 65534 closed ports
+PORT     STATE SERVICE
+631/tcp  open  ipp
+9050/tcp open  tor-socks
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
+           Raw packets sent: 65580 (2.886MB) | Rcvd: 131162 (5.509MB)

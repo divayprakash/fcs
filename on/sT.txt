@@ -1,0 +1,20 @@
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2016-10-09 12:16 IST
+Initiating Connect Scan at 12:16
+Scanning localhost (127.0.0.1) [65536 ports]
+Discovered open port 50906/tcp on 127.0.0.1
+Discovered open port 9050/tcp on 127.0.0.1
+Discovered open port 631/tcp on 127.0.0.1
+Completed Connect Scan at 12:16, 2.08s elapsed (65536 total ports)
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00038s latency).
+Scanned at 2016-10-09 12:16:47 IST for 2s
+Not shown: 65533 closed ports
+PORT      STATE SERVICE
+631/tcp   open  ipp
+9050/tcp  open  tor-socks
+50906/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 2.17 seconds
+           Raw packets sent: 0 (0B) | Rcvd: 0 (0B)
