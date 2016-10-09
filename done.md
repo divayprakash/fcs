@@ -155,7 +155,7 @@ The output obtained is as follows :
 ```
 nslookup zenplayer.audio
 ```
-![nslookup](nslookup.png)
+![nslookup](https://github.com/divayprakash/temp/blob/master/nslookup.png)
 
 ##### Command 2
 ```
@@ -170,7 +170,7 @@ when it does not detect the vulnerability
 * `-sV`: requests a service version detection scan, which will allow the script
 to run against unusual ports that support SSL
 
-![heartbleed](heartbleed.png)
+![heartbleed](https://github.com/divayprakash/temp/blob/master/heartbleed.png)
 
 As we can see in the output, the website is not vulnerable to Heartbleed.
 
