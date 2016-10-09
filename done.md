@@ -32,7 +32,7 @@ a5 dd a8 09 bd 9c 65 a9 92 ce 04 51 17 87 02 b7
 ```
 Encrypted using RC4 (stream cipher) with key `139AD0472BE4F25C` :
 ```
-45 90 43 f2 4d	63 a5 03 49 44 78 7d d8 48 e8 4e
+45 90 43 f2 4d 63 a5 03 49 44 78 7d d8 48 e8 4e
 2c 45 a0 e4 ff 3a 45 af a9 8d d7 45 5b d4 40 7a
 b3 d6 71 e9 00 f1 89 ef 62 a5 94 cb 0e 47 54 6f
 0a 22 4a be a0
@@ -174,6 +174,76 @@ to run against unusual ports that support SSL
 
 As we can see in the output, the website is not vulnerable to Heartbleed.
 
+### Ans 4
+
+**Threat Model of IIIT Delhi library**
+
+#### Assets
+
+* User credentials - students, faculty etc.
+* Admin credentials - library staff
+* User data - reading hstory, issue history, renewals etc.
+* Library website server
+* Library database server
+* Physical assets
+	* Books
+	* Furniture
+	* Computer systems
+
+#### Points of attack
+
+* Computer systems installed in library to help students/faculty locate books
+to issue could be attacked. Ex. keyloggers to record user credentials, script/
+code execution to gain access to library server
+* Process of issuing books could be exploited as librarians issue books to any
+student on another student's ID card
+* Absence of staff at library counter could be exploited as their systems have
+higher trust level
+* Theft of computer hardware : The external peripherals connected to computer systems can be removed and stolen
+* RFID tags on books can be torn off as they are enclosed in only a sticker,
+thus allowing anyone to carry out the books un-issued
+* Non-functioning door scanners could be used to steal books
+
+#### Mitigatiom
+
+* Stricter vigilance by library staff and presence at counter
+* Issuing books only to students on their own ID card
+* Tigther security on computer systems for eg. locing screen to IIIT library
+website
+* Securing peripherals with wire ties to prevent theft
+* Attaching RFID tags more securely to books
+
+#### Effect on usability
+
+* All the suggested measures would put more burden on the library staff,
+however security would be greatly increased
+
+**Threat model of IIIT Delhi ERP**
+
+#### Assets
+* User credentials - students, faculty etc.
+* Admin credentials - staff
+* User data
+	* Students : grades, fees, course registration, hostel request etc.
+	* Faculty data
+* ERP website server
+* ERP database server
+
+#### Points of attack
+* DoS (Denial of service) attack on ERP website
+* Issues with payment gateway security could be exploited by attackers
+* Inability to access outside IIIT network is a major issue
+
+#### Mitigation
+* Tighter security for servers
+* Data encryption before storage
+* Providing access to ERP outside IIIT network
+
+#### Effect on usability
+
+* All the suggested measures would entail more work for the management staff,
+howvever users would greatly benefit
+
 ### Ans 5
 
 I used the following Python code to decrypt the cipher text :
@@ -181,9 +251,6 @@ I used the following Python code to decrypt the cipher text :
 ```python
 from Crypto.Cipher import DES
 import string
-import time
-
-start_time = time.time()
 print "Start time : ", start_time
 
 cipher_text = "\xc5\x81\x97~\xb4\x0b:U\x13^\x9c\xb2:\xedcC\xe5\n\xab\xb2\xbas \
