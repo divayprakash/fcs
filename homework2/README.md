@@ -7,8 +7,7 @@
 heartbleed bug
 * `heartbleed.txt` : Text file of output obtained during testing for
 heartbleed bug
-* `nslookup.png` : Screenshot of output obtained on running **nslookup**
-utility
+* `nslookup.png` : Screenshot of output obtained on running nslookup utility
 * `script.py` : Python script used to decrypt DES encoded plaintext
 * `/off/*` : Text and PNG output files obtained after running various scans
 using NMap tool on `localhost` with system firewall off
