@@ -1,0 +1,33 @@
+
+Starting Nmap 7.01 ( https://nmap.org ) at 2016-10-09 16:11 IST
+Nmap scan report for 104.24.102.148
+Host is up (0.063s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare nginx
+|_http-server-header: cloudflare-nginx
+443/tcp  open  ssl/https     cloudflare-nginx
+|_http-server-header: cloudflare-nginx
+| ssl-heartbleed: 
+|   NOT VULNERABLE:
+|   The Heartbleed Bug is a serious vulnerability in the popular OpenSSL cryptographic software library. It allows for stealing information intended to be protected by SSL/TLS encryption.
+|     State: NOT VULNERABLE
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160
+|       http://www.openssl.org/news/secadv_20140407.txt 
+|_      http://cvedetails.com/cve/2014-0160/
+8080/tcp open  http          Cloudflare nginx
+|_http-server-header: cloudflare-nginx
+8443/tcp open  ssl/https-alt cloudflare-nginx
+|_http-server-header: cloudflare-nginx
+| ssl-heartbleed: 
+|   NOT VULNERABLE:
+|   The Heartbleed Bug is a serious vulnerability in the popular OpenSSL cryptographic software library. It allows for stealing information intended to be protected by SSL/TLS encryption.
+|     State: NOT VULNERABLE
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160
+|       http://www.openssl.org/news/secadv_20140407.txt 
+|_      http://cvedetails.com/cve/2014-0160/
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 28.43 seconds
