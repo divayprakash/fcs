@@ -70,9 +70,9 @@ turned off or on. This can be seen in the attached screenshots.
 nmap -sS -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](https://github.com/divayprakash/temp/blob/master/off/sS.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/off/sS.png)
 ##### Firewall **ON**
-![sS-off](https://github.com/divayprakash/temp/blob/master/on/sS.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/on/sS.png)
 
 **TCP connect scan**
 <br />
@@ -80,9 +80,9 @@ nmap -sS -vv -p 0-65535 localhost
 nmap -sT -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](https://github.com/divayprakash/temp/blob/master/off/sT.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/off/sT.png)
 ##### Firewall **ON**
-![sS-off](https://github.com/divayprakash/temp/blob/master/on/sT.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/on/sT.png)
 
 **Service/version detection scan**
 <br />
@@ -90,9 +90,9 @@ nmap -sT -vv -p 0-65535 localhost
 nmap -sV -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](https://github.com/divayprakash/temp/blob/master/off/sV.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/off/sV.png)
 ##### Firewall **ON**
-![sS-off](https://github.com/divayprakash/temp/blob/master/on/sV.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/on/sV.png)
 
 **No ping scan**
 <br />
@@ -100,9 +100,9 @@ nmap -sV -vv -p 0-65535 localhost
 nmap -P0 -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](https://github.com/divayprakash/temp/blob/master/off/P0.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/off/P0.png)
 ##### Firewall **ON**
-![sS-off](https://github.com/divayprakash/temp/blob/master/on/P0.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/on/P0.png)
 
 **OS detection scan**
 <br />
@@ -110,9 +110,9 @@ nmap -P0 -vv -p 0-65535 localhost
 nmap -O -vv -p 0-65535 localhost
 ```
 ##### Firewall **OFF**
-![sS-off](https://github.com/divayprakash/temp/blob/master/off/O.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/off/O.png)
 ##### Firewall **ON**
-![sS-off](https://github.com/divayprakash/temp/blob/master/on/O.png)
+![sS-off](https://github.com/divayprakash/temp/blob/master/homework2/on/O.png)
 
 ### Ans 3
 
@@ -155,7 +155,7 @@ The output obtained is as follows :
 ```
 nslookup zenplayer.audio
 ```
-![nslookup](https://github.com/divayprakash/temp/blob/master/nslookup.png)
+![nslookup](https://github.com/divayprakash/temp/blob/master/homework2/nslookup.png)
 
 ##### Command 2
 ```
@@ -170,7 +170,7 @@ when it does not detect the vulnerability
 * `-sV`: requests a service version detection scan, which will allow the script
 to run against unusual ports that support SSL
 
-![heartbleed](https://github.com/divayprakash/temp/blob/master/heartbleed.png)
+![heartbleed](https://github.com/divayprakash/temp/blob/master/homework2/heartbleed.png)
 
 As we can see in the output, the website is not vulnerable to Heartbleed.
 
